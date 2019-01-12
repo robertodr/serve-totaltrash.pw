@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>~totaltrash</title>
+        <link>totaltrash.pw</link>
+        <description><![CDATA[It's total trash.]]></description>
+        <atom:link href="totaltrash.pw/rss" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Sat, 05 Jan 2019 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>The \(n\)-th time is the charm</title>
+    <link>totaltrash.pw/blog/the-n-th-time-is-the-charm.html</link>
+    <description><![CDATA[<div id='false_toc'>
+    <h2>Contents</h2>
+  <ul>
+  <li><a href="#references">References</a></li>
+  </ul>
+  </div>
+<p>What do you know?</p>
+<p><span class="math display">\[ \ln x = \int_{-\infty}^x \frac 1 y \, dy  \]</span></p>
+<p>And references even!<span class="citation" data-cites="Thom2010-kh"><sup><a href="#ref-Thom2010-kh">1</a></sup></span></p>
+<h3 id="references" class="unnumbered">References</h3>
+<div id="refs" class="references">
+<div id="ref-Thom2010-kh">
+<p>(1) Thom, A. J. W. Stochastic Coupled Cluster Theory. <em>Phys. Rev. Lett.</em> <strong>2010</strong>, <em>105</em> (26), 263004. <a href="https://doi.org/10.1103/PhysRevLett.105.263004" class="uri">https://doi.org/10.1103/PhysRevLett.105.263004</a>.</p>
+</div>
+</div>]]></description>
+    <pubDate>Sat, 05 Jan 2019 00:00:00 UT</pubDate>
+    <guid>totaltrash.pw/blog/the-n-th-time-is-the-charm.html</guid>
+    <dc:creator>Roberto Di Remigio</dc:creator>
+</item>
+
+    </channel>
+</rss>

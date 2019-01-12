@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="referrer" content="no-referrer">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script type="text/javascript" src="./vendor/highlight.pack.js"></script>
+    <script type="text/javascript" src="./vendor/highlight.line-numbers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.0/css/fork-awesome.min.css" integrity="sha256-sX8HLspqYoXVPetzJRE4wPhIhDBu2NB0kYpufzkQSms=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>
+      totaltrash.pw
+      
+      – robertodr' Blog
+      
+    </title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h2>Here</h2>
+
+<ul class="blog-list">
+  
+  
+  <li>
+    <span class="blog-date">
+      2019-01-05
+    </span>
+    <a href="./blog/the-n-th-time-is-the-charm.html">The \(n\)-th time is the charm</a>
+  </li>
+  
+  
+</ul>
+
+<h2>And there</h2>
+
+<ul class="blog-list">
+  
+  
+  
+</ul>
+
+      </article>
+
+    <aside>
+      <h1>
+      robertodr' Blog
+      </h1>
+
+      <div class="abstract">
+        
+        <i class="fa fa-quote-left fa-3x fa-pull-left" aria-hidden="true"></i>
+        Writing stuff.
+        
+      </div>
+
+      <nav id="toc">
+      </nav>
+
+      <hr />
+
+      <ul class="fa-ul">
+        <li> <i class="fa-li fa fa-rss"></i> Want to be kept
+        posted? <a href="./rss">There is a RSS feed </a> for that! </li>
+        <li> <i class="fa-li fa fa-code-fork"></i> The source of this website
+        is available <a href="https://nest.pijul.com/robertodr/totaltrash.pw">under the
+        terms of the AGPLv3</a>.
+        Found a mistake? <a href="mailto:roberto.diremigio@gmail.com">Shout an
+        email</a>!  (with <a href="https://man.sr.ht/git.sr.ht/send-email.md">a
+        patch</a>
+        maybe?)</li>
+      </ul>
+    </aside>
+    </main>
+
+    <footer>
+      <p>
+        <a href="https://git.sr.ht/~lthms/lthms.xyz/commit/?id=1234567890abcdefghilmnopqrstuvz">
+          https://git.sr.ht/~lthms/lthms.xyz@1234567
+        </a>
+      </p>
+    </footer>
+
+    <script type="text/javascript">
+      // highlightjs
+      hljs.initHighlightingOnLoad();
+      hljs.initLineNumbersOnLoad({
+          singleLine: true
+      });
+
+      // add hint to remote links
+      window.onload =function() {
+        var links = document.links;
+        for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+          if (links[i].hostname != window.location.hostname) {
+            links[i].innerHTML += ' <i class="fa fa-external-link" style="font-size:0.7em"></i>';
+          }
+        }
+      }
+
+      // deal with toc, the ugly way
+      var falseToc = document.getElementById('false_toc');
+
+      if (falseToc) {
+        document.getElementById('toc').innerHTML = falseToc.innerHTML;
+        falseToc.innerHTML = '';
+      }
+    </script>
+  </body>
+</html>
